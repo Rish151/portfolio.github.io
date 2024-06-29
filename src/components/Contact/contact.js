@@ -3,7 +3,7 @@ import "./contact.css";
 import { AiOutlineMail, AiFillHome } from "react-icons/ai";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
-import { toast } from "react-toastify";
+import { toast } from "react-toastify";      
 
 const Contact = () => {
   const form = useRef();
